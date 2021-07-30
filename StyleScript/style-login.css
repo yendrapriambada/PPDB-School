@@ -1,0 +1,50 @@
+.header{
+    background-image: url(assets/headerLogin.png);
+    height: 230px;
+}
+
+#garis{
+	border-style:solid;
+	color: #38687F;
+	border-bottom:3px;
+}
+
+.dasar-login{
+	background-color: #DDDDDD;
+	/*position: absolute;*/
+	width: 60%;
+	/*height: 700px;*/
+	margin: 0 auto;
+	padding: 50px;
+	border-radius: 5px;
+}
+
+.login-form{
+	background-color: white;
+	width: 95%;
+	/*height: 600px;*/
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 30px;
+}
+
+.user-icon{
+	margin: 50px;
+	width: 130px;
+	height: 150px;
+}
+
+.wrap-form{
+	width: 85%;
+	margin: 0 auto;
+}
+
+@media (max-width: 768px){
+	.dasar-login{
+		background-color: #DDDDDD;
+		/*position: absolute;*/
+		width: 95%;
+		padding: 12px 5px;
+		border-radius: 5px;
+	}
+}
